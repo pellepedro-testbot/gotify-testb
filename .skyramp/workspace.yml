@@ -1,0 +1,21 @@
+# Skyramp Workspace Configuration
+workspace:
+  repoName: pellepedro-testbot/gotify-testb
+  repoUrl: https://github.com/pellepedro-testbot/gotify-testb
+metadata:
+  schemaVersion: v1
+services:
+  - serviceName: gotify-testb-server
+    language: python
+    framework: pytest
+    testDirectory: tests/skyramp
+    api:
+      schemaPath: http://localhost:8090/swagger
+      authType: token
+      authHeader: X-Gotify-Key
+      authScheme: ""
+      baseUrl: http://localhost:8090
+    runtimeDetails:
+      serverStartCommand: docker compose -f deployment-testbot/docker-compose.yml up -d --build
+      runtime: docker
+      dockerNetwork: deployment-testbot_default
