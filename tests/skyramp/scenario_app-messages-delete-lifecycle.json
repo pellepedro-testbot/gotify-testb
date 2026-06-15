@@ -1,0 +1,54 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"name\": \"DeleteTestApp-1234567890\", \"description\": \"Test application for delete\"}",
+    "ResponseBody": "{\"id\": 1, \"token\": \"token-string\", \"name\": \"DeleteTestApp-1234567890\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Gotify-Key": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/application",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 8090,
+    "Timestamp": "2026-06-15T10:55:14.985Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "",
+    "ResponseBody": "{}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Gotify-Key": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "DELETE",
+    "Path": "/application/1/message",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 8090,
+    "Timestamp": "2026-06-15T10:55:14.985Z",
+    "Scheme": "http"
+  }
+]
