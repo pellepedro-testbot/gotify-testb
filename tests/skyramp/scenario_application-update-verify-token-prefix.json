@@ -1,0 +1,80 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"name\": \"updatetest-1718000000\", \"description\": \"Token prefix update test\"}",
+    "ResponseBody": "{\"id\": 1, \"token\": \"ABCDxxxxxxxxxxx\", \"tokenPrefix\": \"ABCD\", \"name\": \"updatetest-1718000000\", \"description\": \"Token prefix update test\", \"image\": \"static/defaultapp.png\", \"internal\": false, \"defaultPriority\": 0, \"sortKey\": \"a0\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Gotify-Key": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/application",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 8090,
+    "Timestamp": "2026-06-15T10:58:59.432Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"name\": \"updated-updatetest-1718000000\"}",
+    "ResponseBody": "{\"id\": 1, \"token\": \"ABCDxxxxxxxxxxx\", \"tokenPrefix\": \"ABCD\", \"name\": \"updated-updatetest-1718000000\", \"image\": \"static/defaultapp.png\", \"internal\": false, \"defaultPriority\": 0, \"sortKey\": \"a0\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Gotify-Key": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "PUT",
+    "Path": "/application/1",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 8090,
+    "Timestamp": "2026-06-15T10:58:59.432Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "",
+    "ResponseBody": "[{\"id\": 1, \"token\": \"ABCDxxxxxxxxxxx\", \"tokenPrefix\": \"ABCD\", \"name\": \"updated-updatetest-1718000000\"}]",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Gotify-Key": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "GET",
+    "Path": "/application",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 8090,
+    "Timestamp": "2026-06-15T10:58:59.432Z",
+    "Scheme": "http"
+  }
+]

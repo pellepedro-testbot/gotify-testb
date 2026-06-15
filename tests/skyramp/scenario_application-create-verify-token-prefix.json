@@ -1,0 +1,54 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"name\": \"testapp-1718000000\", \"description\": \"Token prefix test application\"}",
+    "ResponseBody": "{\"id\": 1, \"token\": \"ABCDxxxxxxxxxxx\", \"tokenPrefix\": \"ABCD\", \"name\": \"testapp-1718000000\", \"description\": \"Token prefix test application\", \"image\": \"static/defaultapp.png\", \"internal\": false, \"defaultPriority\": 0, \"sortKey\": \"a0\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Gotify-Key": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/application",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 8090,
+    "Timestamp": "2026-06-15T10:58:53.944Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "",
+    "ResponseBody": "[{\"id\": 1, \"token\": \"ABCDxxxxxxxxxxx\", \"tokenPrefix\": \"ABCD\", \"name\": \"testapp-1718000000\", \"description\": \"Token prefix test application\", \"image\": \"static/defaultapp.png\", \"internal\": false, \"defaultPriority\": 0, \"sortKey\": \"a0\"}]",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Gotify-Key": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "GET",
+    "Path": "/application",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 8090,
+    "Timestamp": "2026-06-15T10:58:53.944Z",
+    "Scheme": "http"
+  }
+]
